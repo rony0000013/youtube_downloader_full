@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 
-# To change download location fell free to change below
+# To change download location feel free to change below
 path_to_download_folder_video = str(os.path.join(Path.home(), r'Downloads\tmp\video'))
 path_to_download_folder_audio = str(os.path.join(Path.home(), r'Downloads\tmp\audio'))
 path_to_download_folder_Complete_video = str(os.path.join(Path.home(), r'Downloads\video'))
@@ -34,17 +34,32 @@ links = []
 
     📄 It is a video downloader for YouTube created using pytube and some other libraries for downloading videos in mp4 format.
 
-    ⚠ Before using the video downloader first install the necessary libraries by running in terminal the following command:
-            > pip install youtube_downloader-2.0-py3-none-any.whl
-      or manually install libraries by running
-            > pip install pytube moviepy
+    ⚠ Before using the video downloader 
+    > first install the necessary libraries by running in terminal the following commands:
+        pip install youtube_downloader-2.0-py3-none-any.whl
+        wheel unpack youtube_downloader-2.0-py3-none-any.whl
+
+    > OR manually install libraries by running
+
+        pip install pytube moviepy wheel
+        wheel unpack youtube_downloader-2.0-py3-none-any.whl
+
+    > Then changing directory to the python file
+
+        cd .\youtube_downloader-2.0\youtube_downloader\
+
+    > Now you are ready to use the video downloader
     
     > It can be used to download YouTube videos of 4K, 2K, 1080p, 720p size.
     > pytube and moviepy are dependency required.
     > To Batch install videos insert all links in 'links' list
+    > Quality greater than 720p takes much more Time to download.
     > You can also use the YouTube_Downloader() function in your code by importing youtube_downloader package and calling the function
     > YouTube_Downloader() function takes 2 arguments first is link to video and second is quality of video.
+    > URL of WHL file : https://github.com/rony0000013/youtube_downloader_full/blob/master/dist/youtube_downloader-2.0-py3-none-any.whl
+    > URL of repository : https://github.com/rony0000013/youtube_downloader_full
 
+    created by Rounak Sen
 '''
 
 
