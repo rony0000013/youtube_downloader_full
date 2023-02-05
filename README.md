@@ -54,6 +54,8 @@
 
 > To Batch install videos insert all links in 'links' list<br>
 
+> Quality greater than 720p takes much more Time to download.<br>
+
 > You can also use the YouTube_Downloader() function in your code by importing youtube_downloader package and calling the function<br>
 
 > YouTube_Downloader() function takes 2 arguments first is link to video and second is quality of video.<br>
