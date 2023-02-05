@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: youtube-downloader
+Version: 2.0
+Summary: It is a video downloader for YouTube created using pytube, moviepy and some other libraries for downloading videos in mp4 format.
+Home-page: C:\Python Projects\youtube_downloader_full
+Author: rony0000013
+License: MIT

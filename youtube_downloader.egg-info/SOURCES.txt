@@ -1,0 +1,10 @@
+README.md
+setup.py
+youtube_downloader/__init__.py
+youtube_downloader/youtube_downloader.py
+youtube_downloader.egg-info/PKG-INFO
+youtube_downloader.egg-info/SOURCES.txt
+youtube_downloader.egg-info/dependency_links.txt
+youtube_downloader.egg-info/not-zip-safe
+youtube_downloader.egg-info/requires.txt
+youtube_downloader.egg-info/top_level.txt
