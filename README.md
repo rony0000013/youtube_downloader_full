@@ -41,6 +41,11 @@
     pip install pytube moviepy wheel
     wheel unpack youtube_downloader-2.0-py3-none-any.whl
     ```
+* Then changing directory to the python file
+    ```
+    cd .\youtube_downloader-2.0\youtube_downloader\
+    ```
+* Now you are ready to use the video downloader
 <br><br>
 
 > It can be used to download YouTube videos of 4K, 2K, 1080p, 720p size.<br>
@@ -53,4 +58,7 @@
 
 > YouTube_Downloader() function takes 2 arguments first is link to video and second is quality of video.<br>
 
-> URL of file :  
+> URL of WHL file : https://github.com/rony0000013/youtube_downloader_full/blob/master/dist/youtube_downloader-2.0-py3-none-any.whl<br>
+
+> URL of repository : https://github.com/rony0000013/youtube_downloader_full<br>
+
